@@ -1,0 +1,17 @@
+{
+  "epoch_num": 10000,
+  "train_data_dir": "/big/face/deepfake/140k_real_fake_faces/train",
+  "test_data_dir": "/big/face/deepfake/test1",
+  "valid_data_dir": "/big/face/deepfake/midv_faces",
+  "FaceForensics": "/big/face/deepfake/FaceForensics/cropped_images/",
+  "checkpoint_pt": "/home/arseniy/deepfake_detector/cc/",
+  "images_pt" : "/home/arseniy/deepfake_detector/im",
+  "to_validate": true,
+  "device": 1,
+  "file_to_start": "",
+  "file_to_start1": "/home/arseniy/deepfake_detector/cc/04-04-2024-18-02/4/model.pt",
+  "save_images": false,
+  "minibatch_size": 1024,
+  "lr": 1e-3,
+  "description": ""
+}
